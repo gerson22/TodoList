@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB1EDE0325E80C410037C560 /* TaskDelgate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1EDE0225E80C410037C560 /* TaskDelgate.swift */; };
 		AB7AB10125DECD5C00FF3F0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7AB10025DECD5C00FF3F0E /* AppDelegate.swift */; };
 		AB7AB10325DECD5C00FF3F0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7AB10225DECD5C00FF3F0E /* SceneDelegate.swift */; };
 		AB7AB10525DECD5C00FF3F0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7AB10425DECD5C00FF3F0E /* ViewController.swift */; };
@@ -15,6 +16,11 @@
 		AB7AB10D25DECD5F00FF3F0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7AB10B25DECD5F00FF3F0E /* LaunchScreen.storyboard */; };
 		AB7AB11825DECD6000FF3F0E /* TodoListATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7AB11725DECD6000FF3F0E /* TodoListATests.swift */; };
 		AB7AB12325DECD6000FF3F0E /* TodoListAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7AB12225DECD6000FF3F0E /* TodoListAUITests.swift */; };
+		AB7AB13425DED2CF00FF3F0E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7AB13325DED2CF00FF3F0E /* Task.swift */; };
+		AB7AB13925DED42200FF3F0E /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7AB13825DED42200FF3F0E /* App.swift */; };
+		AB7AB13E25DEDB5C00FF3F0E /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7AB13D25DEDB5C00FF3F0E /* TaskViewController.swift */; };
+		AB7AB14325DEDCF700FF3F0E /* UIItemTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7AB14225DEDCF700FF3F0E /* UIItemTask.swift */; };
+		AB7AB15025DEDDC000FF3F0E /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7AB14F25DEDDC000FF3F0E /* CheckBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB1EDE0225E80C410037C560 /* TaskDelgate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDelgate.swift; sourceTree = "<group>"; };
 		AB7AB0FD25DECD5C00FF3F0E /* TodoListA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoListA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7AB10025DECD5C00FF3F0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB7AB10225DECD5C00FF3F0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		AB7AB11E25DECD6000FF3F0E /* TodoListAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7AB12225DECD6000FF3F0E /* TodoListAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListAUITests.swift; sourceTree = "<group>"; };
 		AB7AB12425DECD6000FF3F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7AB13325DED2CF00FF3F0E /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		AB7AB13825DED42200FF3F0E /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		AB7AB13D25DEDB5C00FF3F0E /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		AB7AB14225DEDCF700FF3F0E /* UIItemTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIItemTask.swift; sourceTree = "<group>"; };
+		AB7AB14F25DEDDC000FF3F0E /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +113,9 @@
 			children = (
 				AB7AB10025DECD5C00FF3F0E /* AppDelegate.swift */,
 				AB7AB10225DECD5C00FF3F0E /* SceneDelegate.swift */,
-				AB7AB10425DECD5C00FF3F0E /* ViewController.swift */,
+				AB7AB15825DEDE3600FF3F0E /* Controllers */,
+				AB7AB15925DEDE4200FF3F0E /* Objects */,
+				AB7AB15425DEDE1400FF3F0E /* UIComponents */,
 				AB7AB10625DECD5C00FF3F0E /* Main.storyboard */,
 				AB7AB10925DECD5F00FF3F0E /* Assets.xcassets */,
 				AB7AB10B25DECD5F00FF3F0E /* LaunchScreen.storyboard */,
@@ -126,6 +140,34 @@
 				AB7AB12425DECD6000FF3F0E /* Info.plist */,
 			);
 			path = TodoListAUITests;
+			sourceTree = "<group>";
+		};
+		AB7AB15425DEDE1400FF3F0E /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				AB7AB14225DEDCF700FF3F0E /* UIItemTask.swift */,
+				AB7AB14F25DEDDC000FF3F0E /* CheckBox.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		AB7AB15825DEDE3600FF3F0E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB7AB10425DECD5C00FF3F0E /* ViewController.swift */,
+				AB7AB13D25DEDB5C00FF3F0E /* TaskViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AB7AB15925DEDE4200FF3F0E /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				AB7AB13325DED2CF00FF3F0E /* Task.swift */,
+				AB7AB13825DED42200FF3F0E /* App.swift */,
+				AB1EDE0225E80C410037C560 /* TaskDelgate.swift */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB7AB15025DEDDC000FF3F0E /* CheckBox.swift in Sources */,
+				AB7AB13425DED2CF00FF3F0E /* Task.swift in Sources */,
+				AB7AB14325DEDCF700FF3F0E /* UIItemTask.swift in Sources */,
 				AB7AB10525DECD5C00FF3F0E /* ViewController.swift in Sources */,
 				AB7AB10125DECD5C00FF3F0E /* AppDelegate.swift in Sources */,
+				AB7AB13925DED42200FF3F0E /* App.swift in Sources */,
 				AB7AB10325DECD5C00FF3F0E /* SceneDelegate.swift in Sources */,
+				AB1EDE0325E80C410037C560 /* TaskDelgate.swift in Sources */,
+				AB7AB13E25DEDB5C00FF3F0E /* TaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +485,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N26H5M4G5V;
+				DEVELOPMENT_TEAM = RG9DD7MR44;
 				INFOPLIST_FILE = TodoListA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,7 +504,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N26H5M4G5V;
+				DEVELOPMENT_TEAM = RG9DD7MR44;
 				INFOPLIST_FILE = TodoListA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
